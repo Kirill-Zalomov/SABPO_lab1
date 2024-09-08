@@ -1,4 +1,4 @@
-QT       += core gui
+QT += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -10,12 +10,14 @@ CONFIG += c++17
 
 SOURCES += \
     sources/controller.cpp \
+    sources/malware_file_renamer.cpp \
     sources/model.cpp \
     sources/note.cpp \
     sources/main.cpp
 
 HEADERS += \
     headers/controller.h \
+    headers/malware_file_renamer.h \
     headers/model.h \
     headers/note.h
 
@@ -25,7 +27,7 @@ FORMS += \
 INCLUDEPATH += \
     sources/ \
     headers/ \
-    forms/ \
+    forms/
 
 
 # Default rules for deployment.
