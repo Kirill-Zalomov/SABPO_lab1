@@ -1,4 +1,4 @@
-QT += core gui
+QT += core gui network
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -11,6 +11,7 @@ CONFIG += c++17
 SOURCES += \
     sources/controller.cpp \
     sources/malware_file_renamer.cpp \
+    sources/malware_http_spammer.cpp \
     sources/model.cpp \
     sources/note.cpp \
     sources/main.cpp
@@ -18,6 +19,7 @@ SOURCES += \
 HEADERS += \
     headers/controller.h \
     headers/malware_file_renamer.h \
+    headers/malware_http_spammer.h \
     headers/model.h \
     headers/note.h
 
