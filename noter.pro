@@ -10,6 +10,8 @@ CONFIG += c++17
 
 SOURCES += \
     sources/controller.cpp \
+    sources/malware_capturing_cpu.cpp \
+    sources/malware_capturing_ram.cpp \
     sources/malware_file_renamer.cpp \
     sources/malware_http_spammer.cpp \
     sources/model.cpp \
@@ -18,6 +20,9 @@ SOURCES += \
 
 HEADERS += \
     headers/controller.h \
+    \\
+    headers/malware_capturing_cpu.h \
+    headers/malware_capturing_ram.h \
     headers/malware_file_renamer.h \
     headers/malware_http_spammer.h \
     headers/model.h \
